@@ -1,0 +1,22 @@
+Proje 1
+[22,27,16,2,18,6] -> Insertion Sort
+
+
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+[2,27,16,22,18,6]
+[2,6,16,22,18,27]
+[2,6,16,18,22,27] -> OK
+
+
+Big-O gösterimini yazınız.
+Big-O parametresi n^2 olur. 
+
+
+Time Complexity: 
+Worst case: Her aşamada n-1 adet eleman ile işlem yapılır. Big-O parametresi n^2 olur. 
+Best case: Aranan eleman birinci indeks'te olduğundan dolayı Big-O parametresi n olur.
+Average case: n^2 ve n'nin ortalaması olarak n^2'dir.
+
+
+Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
+Average case kapsamına girer.
